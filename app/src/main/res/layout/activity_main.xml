@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ccc"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/ic_stat_contact"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#030303"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:id="@+id/userNameId"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Username"
+        android:background="#02ed9f"
+        android:textColor="#0b0586"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordId"
+        android:inputType="textPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Password"
+        android:background="#02ed9f"
+        android:textColor="#0b0586"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_action_password"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:layout_width="180dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/attempId"
+        android:text="Number of incorrect attemp"
+        android:textSize="15sp"
+        android:textColor="#8f1111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
